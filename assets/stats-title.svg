@@ -1,0 +1,35 @@
+<svg width="1000" height="54" viewBox="0 0 1000 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pillBg" x1="0" y1="0" x2="1000" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="50%" stop-color="#14213D"/>
+      <stop offset="100%" stop-color="#0B132B"/>
+    </linearGradient>
+    <linearGradient id="lineLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3A506B" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#90E0EF" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="lineRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#90E0EF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3A506B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.75" y="0.75" width="998.5" height="52.5" rx="12" fill="url(#pillBg)" stroke="#3A506B" stroke-width="1.5"/>
+
+  <!-- Decorative Frost Lines -->
+  <rect x="40" y="26" width="290" height="1.5" rx="0.75" fill="url(#lineLeft)"/>
+  <rect x="670" y="26" width="290" height="1.5" rx="0.75" fill="url(#lineRight)"/>
+
+  <!-- Snowflake Icon -->
+  <g transform="translate(384, 27)" stroke="#90E0EF" stroke-width="1.5" stroke-linecap="round">
+    <line x1="-7" y1="0" x2="7" y2="0"/>
+    <line x1="-3.5" y1="-6.06" x2="3.5" y2="6.06"/>
+    <line x1="-3.5" y1="6.06" x2="3.5" y2="-6.06"/>
+  </g>
+
+  <!-- Title -->
+  <text x="512" y="33" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">
+    GITHUB STATISTICS
+  </text>
+</svg>
