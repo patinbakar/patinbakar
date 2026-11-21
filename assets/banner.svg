@@ -134,5 +134,14 @@
         <line x1="-2.75" y1="4.8" x2="2.75" y2="-4.8"/>
       </g>
     </g>
+
+    <!-- Minimalist Typography -->
+    <rect x="64" y="48" width="44" height="4" rx="2" fill="#90E0EF"/>
+    <text x="64" y="94" fill="#F8FAFC" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">
+      patinbakar
+    </text>
+    <text x="64" y="124" fill="#BAE6FD" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" font-weight="500">
+      one line of code at a time.
+    </text>
   </g>
 </svg>
