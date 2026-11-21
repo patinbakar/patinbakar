@@ -67,39 +67,68 @@
     <path d="M0 208 C 180 190, 340 222, 540 202 C 740 184, 880 214, 1000 198 L 1000 240 L 0 240 Z" fill="url(#snowDrift)" fill-opacity="0.92"/>
     <path d="M0 222 C 240 208, 460 232, 720 214 C 860 204, 940 220, 1000 215 L 1000 240 L 0 240 Z" fill="#FFFFFF" fill-opacity="0.88"/>
 
-    <!-- Falling Snowflakes -->
+    <!-- Animated Falling Snowfall -->
     <g fill="#FFFFFF">
-      <circle cx="70" cy="42" r="2.2" fill-opacity="0.85"/>
-      <circle cx="145" cy="88" r="1.6" fill-opacity="0.6"/>
-      <circle cx="210" cy="36" r="2.5" fill-opacity="0.75"/>
-      <circle cx="275" cy="112" r="1.5" fill-opacity="0.55"/>
-      <circle cx="330" cy="64" r="2" fill-opacity="0.8"/>
-      <circle cx="415" cy="48" r="1.8" fill-opacity="0.65"/>
-      <circle cx="480" cy="95" r="2.4" fill-opacity="0.85"/>
-      <circle cx="545" cy="34" r="1.6" fill-opacity="0.6"/>
-      <circle cx="615" cy="76" r="2.2" fill-opacity="0.75"/>
-      <circle cx="685" cy="44" r="1.5" fill-opacity="0.5"/>
-      <circle cx="745" cy="92" r="2.6" fill-opacity="0.85"/>
-      <circle cx="885" cy="46" r="2" fill-opacity="0.7"/>
-      <circle cx="940" cy="96" r="1.7" fill-opacity="0.65"/>
-      <circle cx="170" cy="145" r="1.5" fill-opacity="0.5"/>
-      <circle cx="590" cy="138" r="1.8" fill-opacity="0.6"/>
-      <circle cx="780" cy="130" r="1.5" fill-opacity="0.55"/>
+      <circle cx="70" cy="0" r="2.2" fill-opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 14,255" dur="7.5s" begin="-1.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="145" cy="0" r="1.6" fill-opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -10,255" dur="9.5s" begin="-4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="210" cy="0" r="2.5" fill-opacity="0.8">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 18,255" dur="6.8s" begin="-2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="275" cy="0" r="1.5" fill-opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -12,255" dur="10.2s" begin="-6.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="0" r="2.0" fill-opacity="0.8">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 10,255" dur="8.0s" begin="-0.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="415" cy="0" r="1.8" fill-opacity="0.65">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -14,255" dur="8.8s" begin="-5.0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="480" cy="0" r="2.4" fill-opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 12,255" dur="6.5s" begin="-3.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="545" cy="0" r="1.6" fill-opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -8,255" dur="9.8s" begin="-7.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="615" cy="0" r="2.2" fill-opacity="0.75">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 16,255" dur="7.2s" begin="-1.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="685" cy="0" r="1.5" fill-opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -11,255" dur="10.5s" begin="-4.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="745" cy="0" r="2.6" fill-opacity="0.85">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 14,255" dur="6.2s" begin="-2.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="810" cy="0" r="1.7" fill-opacity="0.65">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -12,255" dur="9.0s" begin="-6.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="885" cy="0" r="2.1" fill-opacity="0.75">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; 11,255" dur="7.8s" begin="-0.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="940" cy="0" r="1.7" fill-opacity="0.65">
+        <animateTransform attributeName="transform" type="translate" values="0,-10; -9,255" dur="8.6s" begin="-3.9s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
-    <!-- Delicate Crystal Snowflakes -->
-    <g stroke="#E0F7FA" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.7">
-      <g transform="translate(260, 56)">
+    <!-- Animated Crystal Snowflakes -->
+    <g stroke="#E0F7FA" stroke-width="1.2" stroke-linecap="round" stroke-opacity="0.75">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="260,-15; 278,255" dur="9.2s" begin="-3.1s" repeatCount="indefinite"/>
         <line x1="-6" y1="0" x2="6" y2="0"/>
         <line x1="-3" y1="-5.2" x2="3" y2="5.2"/>
         <line x1="-3" y1="5.2" x2="3" y2="-5.2"/>
       </g>
-      <g transform="translate(520, 62)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="520,-15; 504,255" dur="10.8s" begin="-6.4s" repeatCount="indefinite"/>
         <line x1="-5" y1="0" x2="5" y2="0"/>
         <line x1="-2.5" y1="-4.3" x2="2.5" y2="4.3"/>
         <line x1="-2.5" y1="4.3" x2="2.5" y2="-4.3"/>
       </g>
-      <g transform="translate(910, 72)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="910,-15; 924,255" dur="8.4s" begin="-1.5s" repeatCount="indefinite"/>
         <line x1="-5.5" y1="0" x2="5.5" y2="0"/>
         <line x1="-2.75" y1="-4.8" x2="2.75" y2="4.8"/>
         <line x1="-2.75" y1="4.8" x2="2.75" y2="-4.8"/>
