@@ -1,0 +1,62 @@
+<svg width="1000" height="110" viewBox="0 0 1000 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerSky" x1="0" y1="0" x2="1000" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="50%" stop-color="#14213D"/>
+      <stop offset="100%" stop-color="#1C314E"/>
+    </linearGradient>
+    <linearGradient id="waveBack" x1="0" y1="30" x2="1000" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5BC0BE" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#90E0EF" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="waveFront" x1="0" y1="55" x2="1000" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CAF0F8" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#E0F7FA" stop-opacity="0.95"/>
+    </linearGradient>
+    <clipPath id="footerRounded">
+      <rect width="1000" height="110" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#footerRounded)">
+    <!-- Background -->
+    <rect width="1000" height="110" fill="url(#footerSky)"/>
+
+    <!-- Layered Snow Waves -->
+    <path d="M0 55 C 210 25, 420 80, 660 42 C 820 18, 920 55, 1000 40 L 1000 110 L 0 110 Z" fill="url(#waveBack)"/>
+    <path d="M0 72 C 260 52, 480 94, 740 62 C 860 48, 940 72, 1000 64 L 1000 110 L 0 110 Z" fill="url(#waveFront)"/>
+    <path d="M0 88 C 220 74, 460 102, 720 82 C 860 72, 940 88, 1000 82 L 1000 110 L 0 110 Z" fill="#FFFFFF" fill-opacity="0.92"/>
+
+    <!-- Falling Snowflakes -->
+    <g fill="#FFFFFF">
+      <circle cx="95" cy="28" r="1.8" fill-opacity="0.8"/>
+      <circle cx="185" cy="44" r="1.4" fill-opacity="0.55"/>
+      <circle cx="290" cy="22" r="2.2" fill-opacity="0.75"/>
+      <circle cx="385" cy="38" r="1.5" fill-opacity="0.6"/>
+      <circle cx="495" cy="24" r="2" fill-opacity="0.85"/>
+      <circle cx="605" cy="40" r="1.4" fill-opacity="0.55"/>
+      <circle cx="715" cy="26" r="2.1" fill-opacity="0.8"/>
+      <circle cx="825" cy="38" r="1.6" fill-opacity="0.65"/>
+      <circle cx="915" cy="22" r="1.9" fill-opacity="0.75"/>
+    </g>
+
+    <!-- Delicate Crystal Snowflakes -->
+    <g stroke="#E0F7FA" stroke-width="1.1" stroke-linecap="round" stroke-opacity="0.7">
+      <g transform="translate(140, 30)">
+        <line x1="-4.5" y1="0" x2="4.5" y2="0"/>
+        <line x1="-2.25" y1="-3.9" x2="2.25" y2="3.9"/>
+        <line x1="-2.25" y1="3.9" x2="2.25" y2="-3.9"/>
+      </g>
+      <g transform="translate(555, 28)">
+        <line x1="-4.5" y1="0" x2="4.5" y2="0"/>
+        <line x1="-2.25" y1="-3.9" x2="2.25" y2="3.9"/>
+        <line x1="-2.25" y1="3.9" x2="2.25" y2="-3.9"/>
+      </g>
+      <g transform="translate(870, 32)">
+        <line x1="-4.5" y1="0" x2="4.5" y2="0"/>
+        <line x1="-2.25" y1="-3.9" x2="2.25" y2="3.9"/>
+        <line x1="-2.25" y1="3.9" x2="2.25" y2="-3.9"/>
+      </g>
+    </g>
+  </g>
+</svg>
