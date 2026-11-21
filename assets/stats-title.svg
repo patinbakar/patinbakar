@@ -18,18 +18,18 @@
   <rect x="0.75" y="0.75" width="998.5" height="52.5" rx="12" fill="url(#pillBg)" stroke="#3A506B" stroke-width="1.5"/>
 
   <!-- Decorative Frost Lines -->
-  <rect x="40" y="26" width="290" height="1.5" rx="0.75" fill="url(#lineLeft)"/>
-  <rect x="670" y="26" width="290" height="1.5" rx="0.75" fill="url(#lineRight)"/>
+  <rect x="40" y="26" width="340" height="1.5" rx="0.75" fill="url(#lineLeft)"/>
+  <rect x="620" y="26" width="340" height="1.5" rx="0.75" fill="url(#lineRight)"/>
 
   <!-- Snowflake Icon -->
-  <g transform="translate(384, 27)" stroke="#90E0EF" stroke-width="1.5" stroke-linecap="round">
+  <g transform="translate(426, 27)" stroke="#90E0EF" stroke-width="1.5" stroke-linecap="round">
     <line x1="-7" y1="0" x2="7" y2="0"/>
     <line x1="-3.5" y1="-6.06" x2="3.5" y2="6.06"/>
     <line x1="-3.5" y1="6.06" x2="3.5" y2="-6.06"/>
   </g>
 
   <!-- Title -->
-  <text x="512" y="33" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">
-    GITHUB STATISTICS
+  <text x="514" y="33" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">
+    STATISTICS
   </text>
 </svg>

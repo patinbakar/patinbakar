@@ -3,11 +3,15 @@
 
   <br /><br />
 
-  <img src="./assets/stats-title.svg" alt="GitHub Statistics" width="100%" />
+  <img src="./assets/stats-title.svg" alt="Statistics" width="100%" />
 
   <br /><br />
 
   <img height="175" src="https://streak-stats.demolab.com?user=patinbakar&background=0B132B&border=3A506B&stroke=3A506B&ring=90E0EF&fire=CAF0F8&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=90E0EF&sideLabels=CAF0F8&dates=CAF0F8" alt="GitHub Streak" />
+
+  <br /><br />
+
+  <img src="./assets/contributions-title.svg" alt="Contributions" width="100%" />
 
   <br /><br />
 
